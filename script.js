@@ -1,1 +1,9 @@
-console.log("httlo")
+let myLibrary = [];
+
+function Book () {
+
+}
+
+function addBooktoLibrary (book) {
+
+}

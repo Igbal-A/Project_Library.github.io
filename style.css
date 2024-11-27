@@ -1,3 +1,46 @@
 body {
     background-color: aqua;
 }
+
+.block__book {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display__book {
+    width: 120px;
+    height: 150px;
+    background-color: red;
+
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.block__book__content{
+    height: 100%;
+    border: 2px solid white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.number__book {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.name__book {
+    font-size: 20px;
+    color: white;
+}
+
+.description__book {
+    /* width: 100%; */
+    /* margin-left: 20px; */
+}
