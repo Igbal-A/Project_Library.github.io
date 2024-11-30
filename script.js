@@ -9,11 +9,11 @@ function Book (author, name, number_of_pages) {
 }
 
 
-function resertForm () {
+/* function resertForm () {
     document.querySelector('#author').value = '';
     document.querySelector('#name').value = '';
     document.querySelector('#number_of_pages').value = '';
-}
+} */
 
 
 function cleanDisplayBook (allBlockBooks) {
@@ -126,10 +126,10 @@ function addBooktoLibrary () {
         const book = new Book(author, nameBook, numberOfPages);
         myLibrary.push(book);
         
-        resertForm();
+        /* resertForm(); */
         addBookToHtml();
         
-        event.preventDefault();
+        /* event.preventDefault(); */
     });
 }
 
