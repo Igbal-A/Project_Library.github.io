@@ -119,13 +119,17 @@ function addBooktoLibrary () {
         let nameBook = document.querySelector('#name').value;
         let numberOfPages = document.querySelector('#number_of_pages').value;
 
+        if (author === '' && nameBook === '' && numberOfPages === '') {
+            return
+        }
+
         const book = new Book(author, nameBook, numberOfPages);
         myLibrary.push(book);
         
         resertForm();
         addBookToHtml();
         
-        event.preventDefault();
+        /* event.preventDefault(); */
     });
 }
 
