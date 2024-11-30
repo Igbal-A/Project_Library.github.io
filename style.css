@@ -27,7 +27,7 @@ body {
     background-color: red;
 
     border-radius: 10%;
-    padding: 2%;
+    padding: clamp(2%, 20px, 10%);
 }
 
 .block__book-content{
