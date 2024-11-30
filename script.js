@@ -36,29 +36,29 @@ function addBookToHtml () {
         blockBook.setAttribute('id', numberBook);
 
         blockBook.innerHTML = `
-            <div class="display__book">
-                <div class="block__book__content">
-                    <div class="number__book">${numberBook}</div>
-                    <div class="name__book">${elem.name}</div>
+            <div class="book__display">
+                <div class="block__book-content">
+                    <div class="number-book">${numberBook}</div>
+                    <div class="name-book">${elem.name}</div>
                 </div>
             </div>
 
-            <div class="description__book">
+            <div class="book__description">
                 <div class="block__discription">
-                    <div class="title_description">Author: </div>
-                    <div class="value__description">${elem.author}</div>
+                    <div class="title-description">Author: </div>
+                    <div class="value-description">${elem.author}</div>
                 </div>
                 <div class="block__discription">
-                    <div class="title_description">Name: </div>
-                    <div class="value__description">${elem.name}</div>
+                    <div class="title-description">Name: </div>
+                    <div class="value-description">${elem.name}</div>
                 </div>
                 <div class="block__discription">
-                    <div class="title_description">Number of pages: </div>
-                    <div class="value__description">${elem.number_of_pages}</div>
+                    <div class="title-description">Number of pages: </div>
+                    <div class="value-description">${elem.number_of_pages}</div>
                 </div>
                 <div class="block__discription">
-                    <div class="title_description">Read: </div>
-                    <div class="value__description">${elem.readStatus}</div>
+                    <div class="title-description">Read: </div>
+                    <div class="value-description">${elem.readStatus}</div>
                 </div>
             </div>
 

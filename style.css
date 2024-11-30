@@ -21,7 +21,7 @@ body {
     align-items: center;
 }
 
-.display__book {
+.book__display {
     width: 120px;
     height: 150px;
     background-color: red;
@@ -30,7 +30,7 @@ body {
     padding: 20px;
 }
 
-.block__book__content{
+.block__book-content{
     height: 100%;
     border: 2px solid white;
 
@@ -40,18 +40,18 @@ body {
     justify-content: center;
 }
 
-.number__book {
+.number-book {
     font-size: 30px;
     color: white;
     margin-bottom: 30px;
 }
 
-.name__book {
+.name-book {
     font-size: 20px;
     color: white;
 }
 
-.description__book {
+.book__description {
     margin-bottom: 20px;
 }
 
