@@ -45,19 +45,19 @@ function addBookToHtml () {
 
             <div class="description__book">
                 <div class="block__discription">
-                    <div class="title_description">Author:</div>
+                    <div class="title_description">Author: </div>
                     <div class="value__description">${elem.author}</div>
                 </div>
                 <div class="block__discription">
-                    <div class="title_description">Name:</div>
+                    <div class="title_description">Name: </div>
                     <div class="value__description">${elem.name}</div>
                 </div>
                 <div class="block__discription">
-                    <div class="title_description">Number of pages:</div>
+                    <div class="title_description">Number of pages: </div>
                     <div class="value__description">${elem.number_of_pages}</div>
                 </div>
                 <div class="block__discription">
-                    <div class="title_description">Read:</div>
+                    <div class="title_description">Read: </div>
                     <div class="value__description">${elem.readStatus}</div>
                 </div>
             </div>
