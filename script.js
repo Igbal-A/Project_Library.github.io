@@ -105,6 +105,7 @@ function removeBookFromLibrary () {
             if(indexBook > -1) {
                 myLibrary.splice(indexBook, 1);
                 addBookToHtml();
+                
             }
         });
     });
